@@ -1,0 +1,89 @@
+﻿Name,List,Category,Priority,Status,Description
+Create Login Screen,Frontend,Auth,High,Open,Build login UI screen
+Connect Firebase Login,Frontend,Auth,High,Open,Connect login with Firebase Auth
+Create Dashboard Screen,Frontend,Dashboard,High,Open,Build dashboard UI
+Connect Dashboard APIs,Frontend,Dashboard,High,Open,Display dashboard statistics
+Create Product List Screen,Frontend,Products,High,Open,Build product management screen
+Create Product Detail Screen,Frontend,Products,High,Open,Build product detail UI
+Create Add Product Screen,Frontend,Products,High,Open,Build create product screen
+Create Edit Product Screen,Frontend,Products,Medium,Open,Build edit product screen
+Connect Product APIs,Frontend,Products,High,Open,Connect products CRUD APIs
+Create POS Screen,Frontend,POS,High,Open,Build point of sale screen
+Implement Product Search,Frontend,POS,High,Open,Implement realtime product search
+Implement Cart Logic,Frontend,POS,High,Open,Manage cart state and calculations
+Implement Checkout Flow,Frontend,POS,High,Open,Create invoice flow without payment gateway
+Connect Invoice APIs,Frontend,POS,High,Open,Connect invoice APIs
+Create Invoice Detail Screen,Frontend,Invoice,Medium,Open,Display invoice details
+Create Export Invoice PDF Flow,Frontend,Exports,Medium,Open,Download invoice PDF
+Create Inventory Screen,Frontend,Inventory,High,Open,Build inventory management screen
+Create Inventory Transaction Screen,Frontend,Inventory,Medium,Open,Display inventory history
+Create Stock Adjustment Screen,Frontend,Inventory,Medium,Open,Build stock adjustment UI
+Create Stock Transfer Screen,Frontend,Inventory,Medium,Open,Build stock transfer UI
+Connect Inventory APIs,Frontend,Inventory,High,Open,Connect inventory APIs
+Create Customer List Screen,Frontend,Customers,Medium,Open,Build customer management screen
+Create Customer Detail Screen,Frontend,Customers,Low,Open,Build customer detail UI
+Connect Customer APIs,Frontend,Customers,Medium,Open,Connect customer APIs
+Create Reports Screen,Frontend,Reports,Medium,Open,Build analytics and reports UI
+Connect Reports APIs,Frontend,Reports,Medium,Open,Connect reporting APIs
+Create Settings Screen,Frontend,Settings,Medium,Open,Build settings UI
+Create Staff Management Screen,Frontend,Settings,Medium,Open,Manage staff and permissions
+Connect Settings APIs,Frontend,Settings,Medium,Open,Connect settings APIs
+Implement Global Loading State,Frontend,Shared,High,Open,Global loading management
+Implement Error Toast System,Frontend,Shared,Medium,Open,Display API error messages
+Implement Empty States,Frontend,Shared,Low,Open,Handle no data UI states
+Implement Pull To Refresh,Frontend,Shared,Low,Open,Implement refresh interactions
+Implement Responsive Layout,Frontend,Shared,High,Open,Ensure mobile responsive UI
+Implement Bottom Navigation,Frontend,Shared,High,Open,Build app bottom tab navigation
+Implement Reusable Components,Frontend,Shared,Medium,Open,Create reusable cards buttons inputs
+Setup Firebase Project,Backend,Infrastructure,High,Open,Create Firebase project and configure environments
+Setup Firestore Structure,Backend,Infrastructure,High,Open,Initialize Firestore collections and indexes
+Setup Cloud Run API,Backend,Infrastructure,High,Open,Initialize backend service on Cloud Run
+Setup Authentication API,Backend,Auth,High,Open,Implement Firebase Auth integration and JWT validation
+Setup Role Permission Middleware,Backend,Auth,High,Open,Implement owner manager cashier staff permissions
+Create Store API,Backend,Store,High,Open,Create store CRUD APIs
+Create Branch API,Backend,Store,High,Open,Create branch CRUD APIs
+Create Store Member API,Backend,Store,High,Open,Manage store members and roles
+Create Dashboard Summary API,Backend,Dashboard,High,Open,Return revenue invoice inventory summary
+Create Revenue Analytics API,Backend,Dashboard,Medium,Open,Return chart data for dashboard
+Create Product CRUD API,Backend,Products,High,Open,Create edit delete product APIs
+Create Product Variant API,Backend,Products,High,Open,Manage product variants
+Create Category API,Backend,Products,Medium,Open,Manage product categories
+Create Inventory Stock API,Backend,Inventory,High,Open,Get current stock by branch
+Create Inventory Transaction API,Backend,Inventory,High,Open,Create stock ledger transactions
+Create Stock Adjustment API,Backend,Inventory,High,Open,Adjust inventory quantity
+Create Stock Transfer API,Backend,Inventory,Medium,Open,Transfer inventory between branches
+Create Stock Check API,Backend,Inventory,Medium,Open,Create stock checking sessions
+Create Stock Disposal API,Backend,Inventory,Medium,Open,Dispose damaged or expired products
+Create Customer CRUD API,Backend,Customers,Medium,Open,Manage customer information
+Create Supplier CRUD API,Backend,Suppliers,Medium,Open,Manage supplier information
+Create POS Search API,Backend,POS,High,Open,Search products for POS screen
+Create Order API,Backend,POS,High,Open,Create and manage draft orders
+Create Invoice API,Backend,POS,High,Open,Create invoice and update stock without payment gateway
+Create Invoice Detail API,Backend,Invoice,High,Open,Return invoice detail information
+Create Return Invoice API,Backend,Invoice,Medium,Open,Handle invoice return operations
+Create Export PDF API,Backend,Exports,Medium,Open,Generate invoice PDF files
+Create Export Excel API,Backend,Exports,Medium,Open,Generate inventory and sales Excel files
+Create Report API,Backend,Reports,Medium,Open,Generate sales inventory analytics
+Create Low Stock Alert API,Backend,Inventory,Medium,Open,Return low stock products
+Create File Upload API,Backend,Storage,Medium,Open,Upload product images and export files
+Setup Cloud Storage,Backend,Storage,Medium,Open,Configure export file storage
+Setup PubSub Worker,Backend,Infrastructure,Low,Open,Background processing worker setup
+Setup Logging & Monitoring,Backend,Infrastructure,Medium,Open,Implement structured logging and monitoring
+Setup Firestore Security Rules,Backend,Infrastructure,High,Open,Secure Firestore access
+Setup API Validation Middleware,Backend,Infrastructure,High,Open,Request validation middleware
+Setup Error Handling Middleware,Backend,Infrastructure,High,Open,Global API error handling
+Production Deployment,Backend,Deployment,High,Open,Deploy production backend and frontend
+Create Test Plan,Testing,QA,High,Open,Create test plan by module and priority
+Prepare Test Cases for Auth,Testing,Auth,High,Open,Write test cases for login logout and permissions
+Prepare Test Cases for Product,Testing,Products,High,Open,Write test cases for product CRUD variants and search
+Prepare Test Cases for Inventory,Testing,Inventory,High,Open,Write test cases for stock update stock adjustment and transaction ledger
+Prepare Test Cases for POS,Testing,POS,High,Open,Write test cases for POS cart invoice and return flow
+Prepare Test Cases for Reports,Testing,Reports,Medium,Open,Write test cases for dashboard and reports
+API Testing,Testing,Backend QA,High,Open,Test backend APIs using Postman or similar tool
+UI Testing,Testing,Frontend QA,High,Open,Test frontend screens and user flows
+End To End POS Testing,Testing,POS,High,Open,Validate invoice and inventory flow end to end
+Inventory Consistency Testing,Testing,Inventory,High,Open,Validate stock calculations after sale return purchase transfer and adjustment
+Export File Testing,Testing,Exports,Medium,Open,Validate PDF and Excel exports
+Role Permission Testing,Testing,Auth,High,Open,Validate owner manager cashier staff permissions
+Regression Testing,Testing,QA,Medium,Open,Run regression before release
+Production Smoke Testing,Testing,Release,High,Open,Run smoke test after production deployment
